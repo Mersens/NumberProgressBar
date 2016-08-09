@@ -20,16 +20,16 @@ public class NumberProgressBar extends ProgressBar {
 	private static final int DEFAULT_REACH_HEIGHT = 2;// DP
 	private static final int DEFAULT_TEXT_OFFSET = 10;//
 
-	private int mTextColor = DEFAULT_TEXT_COLOR;
-	private int mTextSize = sp2px(DEFAULT_TEXT_SIZE);
-	private int mUnreachColor = DEFAULT_UNREACH_COLOR;
-	private int mUnreachHeight = dp2px(DEFAULT_UNREACH_HEIGHT);
-	private int mReachColor = DEFAULT_REACH_COLOR;
-	private int mReachHeight = dp2px(DEFAULT_REACH_HEIGHT);
-	private int mOffset = dp2px(DEFAULT_TEXT_OFFSET);
-	private Paint mPaint = new Paint();
+	protected int mTextColor = DEFAULT_TEXT_COLOR;
+	protected int mTextSize = sp2px(DEFAULT_TEXT_SIZE);
+	protected int mUnreachColor = DEFAULT_UNREACH_COLOR;
+	protected int mUnreachHeight = dp2px(DEFAULT_UNREACH_HEIGHT);
+	protected int mReachColor = DEFAULT_REACH_COLOR;
+	protected int mReachHeight = dp2px(DEFAULT_REACH_HEIGHT);
+	protected int mOffset = dp2px(DEFAULT_TEXT_OFFSET);
+	protected Paint mPaint = new Paint();
 	// �ؼ��Ŀ��
-	private int mRealWidth;
+	protected int mRealWidth;
 
 	public NumberProgressBar(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);

@@ -40,4 +40,8 @@
     <declare-styleable name="Themes">
         <attr name="numberProgressBarStyle" format="reference" />
     </declare-styleable>
+
+    <declare-styleable name="RoundNumberProgressBar">
+        <attr name="round_radius" format="dimension" ></attr>
+    </declare-styleable>
 </resources>
